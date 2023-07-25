@@ -6,7 +6,26 @@ endif
 vim9script
 
 import 'vimcompletor.vim'
-import autoload '../autoload/complete.vim'
+import autoload '../autoload/vscomplete.vim' as complete
 
-autocmd VimCompleteLoaded User * ++once
-	    \ vimcompletor.Register('vimscript', complete.Completor, ['vim'], 9)
+def Register()
+    var o = complete.options
+    if !o->has_key('enable') || o.enable
+	var ftypes = o->get('filetypes', ['vim'])
+	vimcompletor.Register('vimscript', complete.Completor, ftypes, o->get('priority', 9))
+    else
+	vimcompletor.Unregister('vimscript')
+    endif
+enddef
+
+autocmd User VimCompleteLoaded ++once Register()
+
+def OptionsChanged()
+    var opts = vimcompletor.GetOptions('vimscript')
+    if !opts->empty()
+	complete.options->extend(opts)
+	Register()
+    endif
+enddef
+
+autocmd User VimCompleteOptionsChanged ++once OptionsChanged()

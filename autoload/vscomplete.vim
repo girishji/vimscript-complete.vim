@@ -50,10 +50,6 @@ def Prefix(): list<any>
 	    type = 'vimdict'
 	    kind = 'D'
 	endif
-
-	# prefix = line->matchstr('\k\+$')
-	# startcol = col('.') - prefix->len()
-	# [type, kind] = prefix->len() > 1 ? ['function', 'f'] : ['', '']
     endif
     return [prefix, type, kind, startcol]
 enddef
