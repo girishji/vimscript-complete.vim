@@ -59,9 +59,17 @@ def Prefix(): list<any>
 enddef
 
 var dictwords = []
+
 def GetDictCompletion(prefix: string): list<string>
     if dictwords->empty()
-	var fname = '../data/vim.dict'
+	# xxx: Fragile way of getting dictionary file path
+	var scripts = getscriptinfo({ name: 'vimscript-complete.vim/plugin' })
+	if scripts->empty()
+	    return []
+	endif
+	var path = scripts[0].name
+	path = fnamemodify(path, ':p:h')
+	var fname = $'{path}/../data/vim.dict'
 	dictwords = fname->readfile()
     endif
     return dictwords->copy()->filter((_, v) => v =~? $'\v^{prefix}')

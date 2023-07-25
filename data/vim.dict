@@ -316,6 +316,7 @@ cwindow
 debug
 debuggreedy
 deepcopy
+def
 define
 delcombine
 delcommand
@@ -361,6 +362,7 @@ elseif
 emenu
 empty
 encoding
+enddef
 endfor
 endfunction
 endif
@@ -387,6 +389,7 @@ exit
 exp
 expand
 expandtab
+export
 exrc
 extend
 exusage
