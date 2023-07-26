@@ -136,6 +136,7 @@ aunmenu
 autochdir
 autocmd
 autoindent
+autoload
 autoread
 autowrite
 autowriteall
@@ -163,6 +164,7 @@ blast
 bmodified
 bnext
 bomb
+bool
 botright
 bprevious
 break
@@ -323,6 +325,7 @@ delcommand
 delete
 delfunction
 delmarks
+dict
 dictionary
 did_filetype
 diff
@@ -547,6 +550,7 @@ imcmdline
 imdisable
 imenu
 iminsert
+import
 imsearch
 imstatusfunc
 include
@@ -1205,6 +1209,7 @@ vglobal
 view
 viewdir
 viewoptions
+vim9script
 vimgrep
 vimgrepadd
 viminfo
