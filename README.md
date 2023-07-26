@@ -39,7 +39,7 @@ Default options are as follows.
 vim9script
 export var options: dict<any> = {
     priority: 9,     # Higher priority items are shown at the top
-    maxCount: 10,    # Maximum number of next-word items shown
+    maxCount: 10,    # Maximum number of items shown
 }
 ```
 
