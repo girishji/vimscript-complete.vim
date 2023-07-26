@@ -1,4 +1,4 @@
-# Vimscript Language Completion Helper for Vimcomplete Plugin
+# vimscript-complete
 
 Vimscript language completion helper for
 [Vimcomplete](https://github.com/girishji/vimcomplete) autocompletion plugin.
