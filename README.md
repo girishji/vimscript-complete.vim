@@ -9,6 +9,7 @@ a must-have.
 # Requirements
 
 - Vim >= 9.0
+- [Vimcomplete](https://github.com/girishji/vimcomplete)
 
 # Installation
 
@@ -47,7 +48,7 @@ export var options: dict<any> = {
 
 Options can be modified using `g:VimCompleteOptionsSet()`. It takes a
 dictionary as argument. If you are using
-[vim-plug](https://github.com/junegunn/vim-plug) then call this using
+[vim-plug](https://github.com/junegunn/vim-plug) then call this function through
 __VimEnter__ autocommand event.
 
 ```
