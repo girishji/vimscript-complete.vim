@@ -41,5 +41,11 @@ export var options: dict<any> = {
     priority: 9,     # Higher priority items are shown at the top
     maxCount: 10,    # Maximum number of next-word items shown
 }
+```
+
+Options can be modified using `g:VimCompleteOptionsSet()`. It takes a
+dictionary as argument.
+
+```
 autocmd VimEnter * g:VimCompleteOptionsSet(options)
 ```
