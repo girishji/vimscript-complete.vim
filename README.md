@@ -1,9 +1,8 @@
 # Vimscript Language Completion Helper for Vimcomplete Plugin
 
-This plugin is a helper for Vim completion plugin
-[Vimcomplete](https://github.com/girishji/vimcomplete). It completes Vimscript
-function names, arguments, variables, reserved words and the like.
-
+Vimscript language completion helper for
+[Vimcomplete](https://github.com/girishji/vimcomplete) autocompletion plugin.
+It completes Vimscript function names, arguments, variables, reserved words and the like.
 
 # Requirements
 
@@ -11,7 +10,7 @@ function names, arguments, variables, reserved words and the like.
 
 # Installation
 
-Install this plugin after [Vimcomplete](https://github.com/girishji/vimcomplete).
+Install this plugin after installing [Vimcomplete](https://github.com/girishji/vimcomplete).
 
 Install using [vim-plug](https://github.com/junegunn/vim-plug).
 
