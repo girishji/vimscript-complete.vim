@@ -2,7 +2,9 @@
 
 Vimscript language completion helper for
 [Vimcomplete](https://github.com/girishji/vimcomplete) autocompletion plugin.
-It completes Vimscript function names, arguments, variables, reserved words and the like.
+It completes Vimscript function names, arguments, variables, reserved words and
+the like. If you are developing a Vim plugin or configuring your .vimrc this is
+a must-have.
 
 # Requirements
 
@@ -44,7 +46,9 @@ export var options: dict<any> = {
 ```
 
 Options can be modified using `g:VimCompleteOptionsSet()`. It takes a
-dictionary as argument.
+dictionary as argument. If you are using
+[vim-plug](https://github.com/junegunn/vim-plug) then call this using
+__VimEnter__ autocommand event.
 
 ```
 autocmd VimEnter * g:VimCompleteOptionsSet(options)
