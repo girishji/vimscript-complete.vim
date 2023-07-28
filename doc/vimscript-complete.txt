@@ -1,0 +1,71 @@
+*vimscript-complete.txt*	Vimscript Language Autocompletion for Vim
+
+Author: Girish Palya (girishji AT gmail DOT com)
+For Vim version 9.0 and above
+
+==============================================================================
+CONTENTS 					*vimscript-complete-contents*
+
+     1. Overview ................................. |vimscript-complete-overview|
+     2. Requirements ............................. |vimscript-complete-requirements|
+     3. Installation ............................. |vimscript-complete-installation|
+     4. Configuration............................. |vimscript-complete-configuration|
+
+==============================================================================
+1. Overview				*vimscript-complete-overview*
+
+Vimscript language completion helper for Vimcomplete (|vimcomplete.txt|)
+autocompletion plugin (https://github.com/girishji/vimcomplete).
+It completes Vimscript function names, arguments, variables, reserved words
+and the like. If you are developing a Vim plugin or configuring your .vimrc
+file this is a must-have.
+
+==============================================================================
+2. Requirements				*vimscript-complete-requirements*
+
+- Vim >= 9.0
+- Vimcomplete (|vimcomplete.txt|)
+
+==============================================================================
+3. Installation				*vimscript-complete-installation*
+
+Note: Install this plugin after installing Vimcomplete.
+
+Install using vim-plug (https://github.com/junegunn/vim-plug)
+
+>
+	vim9script
+	plug#begin()
+	Plug 'girishji/vimscript-complete.vim'
+	plug#end()
+
+Legacy script:
+
+>
+	call plug#begin()
+	Plug 'girishji/vimscript-complete.vim'
+	call plug#end()
+
+Or use Vim's builtin package manager.
+
+==============================================================================
+4. Configuration				*vimscript-complete-configuration*
+
+Default options are as follows.
+>
+	vim9script
+	export var options: dict<any> = {
+	    enable: true,    # 'false' to disable this extension
+	    priority: 9,     # Higher priority items are shown at the top
+	    maxCount: 10,    # Maximum number of items shown
+	}
+
+Options can be modified using `g:VimCompleteOptionsSet()`. It takes a dictionary
+argument. If you are using vim-plug, call this function through |VimEnter|
+autocommand event.
+>
+	autocmd VimEnter * g:VimCompleteOptionsSet(options)
+
+==============================================================================
+
+vim:tw=78:ts=8:noet:ft=help:norl:

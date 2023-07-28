@@ -1,4 +1,4 @@
-# vimscript-complete
+# Vimscript Language Autocompletion for Vim
 
 Vimscript language completion helper for
 [Vimcomplete](https://github.com/girishji/vimcomplete) autocompletion plugin.
@@ -41,6 +41,7 @@ Default options are as follows.
 ```
 vim9script
 export var options: dict<any> = {
+    enable: true,    # 'false' to disable this extension
     priority: 9,     # Higher priority items are shown at the top
     maxCount: 10,    # Maximum number of items shown
 }
