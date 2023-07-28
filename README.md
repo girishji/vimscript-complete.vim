@@ -1,9 +1,9 @@
 #### Vimscript Language Autocompletion for Vim
 
-Vimscript language completion helper for
+This plugin provides Vimscript language completion for
 [Vimcomplete](https://github.com/girishji/vimcomplete) autocompletion plugin.
 It completes Vimscript function names, arguments, variables, reserved words and
-the like. If you are developing a Vim plugin or configuring your .vimrc this is
+the like. If you are developing a Vim plugin or configuring your .vimrc file this is
 a must-have.
 
 # Requirements

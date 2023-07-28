@@ -14,11 +14,11 @@ CONTENTS 					*vimscript-complete-contents*
 ==============================================================================
 1. Overview				*vimscript-complete-overview*
 
-Vimscript language completion helper for Vimcomplete (|vimcomplete.txt|)
-autocompletion plugin (https://github.com/girishji/vimcomplete).
-It completes Vimscript function names, arguments, variables, reserved words
-and the like. If you are developing a Vim plugin or configuring your .vimrc
-file this is a must-have.
+This plugin provides Vimscript language completion for Vimcomplete
+(|vimcomplete.txt|) autocompletion plugin
+(https://github.com/girishji/vimcomplete). It completes Vimscript function
+names, arguments, variables, reserved words and the like. If you are
+developing a Vim plugin or configuring your .vimrc file this is a must-have.
 
 ==============================================================================
 2. Requirements				*vimscript-complete-requirements*
