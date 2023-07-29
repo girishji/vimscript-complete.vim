@@ -6,6 +6,8 @@ It completes Vimscript function names, arguments, variables, reserved words and
 the like. If you are developing a Vim plugin or configuring your .vimrc file this is
 a must-have.
 
+[![asciicast](https://asciinema.org/a/lggBAwfS2Zg7RpCccfTRem0pb.svg)](https://asciinema.org/a/lggBAwfS2Zg7RpCccfTRem0pb)
+
 # Requirements
 
 - Vim >= 9.0

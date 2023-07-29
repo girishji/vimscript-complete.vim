@@ -101,6 +101,7 @@ amenu
 and
 anoremenu
 antialias
+any
 append
 appendbufline
 arabic
@@ -1201,6 +1202,7 @@ update
 updatecount
 updatetime
 values
+var
 verbose
 verbosefile
 version
