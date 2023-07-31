@@ -46,6 +46,7 @@ export var options: dict<any> = {
     enable: true,    # 'false' to disable this extension
     priority: 9,     # Higher priority items are shown at the top
     maxCount: 10,    # Maximum number of items shown
+    filetypes: ['vim'], # Activated for vim scripts
 }
 ```
 

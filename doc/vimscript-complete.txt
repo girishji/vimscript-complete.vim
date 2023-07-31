@@ -58,6 +58,7 @@ Default options are as follows.
 	    enable: true,    # 'false' to disable this extension
 	    priority: 9,     # Higher priority items are shown at the top
 	    maxCount: 10,    # Maximum number of items shown
+    	    filetypes: ['vim'], # Activated for vim scripts
 	}
 
 Options can be modified using `g:VimCompleteOptionsSet()`. It takes a dictionary

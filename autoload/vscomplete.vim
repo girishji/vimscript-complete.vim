@@ -9,7 +9,7 @@ def Prefix(): list<any>
     var prefix = ''
     var startcol = -1
     var line = getline('.')->strpart(0, col('.') - 1)
-    var MatchStr = (pat) => { 
+    var MatchStr = (pat) => {
 	prefix = line->matchstr(pat)
 	startcol = col('.') - prefix->len()
 	return prefix != ''
