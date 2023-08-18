@@ -11,10 +11,10 @@ import autoload '../autoload/vscomplete.vim' as complete
 def Register()
     var o = complete.options
     if !o->has_key('enable') || o.enable
-	var ftypes = o->get('filetypes', ['vim'])
-	vimcompletor.Register('vimscript', complete.Completor, ftypes, o->get('priority', 9))
+        var ftypes = o->get('filetypes', ['vim'])
+        vimcompletor.Register('vimscript', complete.Completor, ftypes, o->get('priority', 9))
     else
-	vimcompletor.Unregister('vimscript')
+        vimcompletor.Unregister('vimscript')
     endif
 enddef
 
@@ -23,8 +23,8 @@ autocmd User VimCompleteLoaded ++once Register()
 def OptionsChanged()
     var opts = vimcompletor.GetOptions('vimscript')
     if !opts->empty()
-	complete.options->extend(opts)
-	Register()
+        complete.options->extend(opts)
+        Register()
     endif
 enddef
 
