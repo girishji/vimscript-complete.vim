@@ -1,5 +1,3 @@
-========================
-============================
 BufAdd
 BufCreate
 BufDelete
@@ -113,6 +111,7 @@ argdo
 argedit
 argglobal
 argidx
+arglist
 arglistid
 arglocal
 args
@@ -173,6 +172,7 @@ breakadd
 breakat
 breakdel
 breaklist
+breakpoint
 brewind
 brosedir
 browse
@@ -255,6 +255,7 @@ close
 cmap
 cmapclear
 cmdheight
+cmdline
 cmdwinheight
 cmenu
 cnewer
@@ -265,6 +266,7 @@ cnoremap
 cnoremenu
 col
 colder
+color
 colorcolumn
 colorscheme
 columns
@@ -330,6 +332,7 @@ dict
 dictionary
 did_filetype
 diff
+diff_buffer
 diff_filler
 diff_hlID
 diffexpr
@@ -343,6 +346,7 @@ diffthis
 diffupdate
 digraph
 digraphs
+dir
 directory
 display
 djump
@@ -374,6 +378,7 @@ endofline
 endtry
 endwhile
 enew
+environment
 equalalways
 equalprg
 errorbells
@@ -382,6 +387,7 @@ errorformat
 escape
 esckeys
 eval
+event
 eventhandler
 eventignore
 ex
@@ -395,11 +401,13 @@ expand
 expandtab
 export
 expr
+expression
 exrc
 extend
 exusage
 feedkeys
 file
+file_in_path
 fileencoding
 fileencodings
 fileformat
@@ -666,6 +674,7 @@ lnoremap
 loadkeymap
 loadplugins
 loadview
+locale
 localtime
 lockmarks
 lockvar
@@ -692,6 +701,7 @@ map
 maparg
 mapcheck
 mapclear
+mapping
 mark
 marks
 match
@@ -778,11 +788,13 @@ onoremenu
 open
 opendevice
 operatorfunc
+option
 options
 or
 osfiletype
 ounmap
 ounmenu
+packadd
 paragraphs
 paste
 pastetoggle
@@ -951,6 +963,7 @@ sfirst
 sha256
 shell
 shell_error
+shellcmd
 shellcmdflag
 shellescape
 shellpipe
@@ -1062,6 +1075,7 @@ synconcealed
 synmaxcol
 synstack
 syntax
+syntime
 system
 systemlist
 t
@@ -1088,6 +1102,7 @@ tabrewind
 tabs
 tabstop
 tag
+tag_listfiles
 tagbsearch
 tagfiles
 taglength
@@ -1202,6 +1217,7 @@ unmenu
 update
 updatecount
 updatetime
+user
 values
 var
 verbose
