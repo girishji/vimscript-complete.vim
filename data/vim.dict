@@ -56,6 +56,7 @@ InsertEnter
 InsertLeave
 Leader
 MenuPopup
+NONE
 Number
 PreProc
 QuickFixCmdPost
@@ -583,6 +584,7 @@ inputsecret
 insert
 insertmode
 intro
+inverse
 invert
 isdirectory
 isearch
@@ -593,6 +595,7 @@ islocked
 isnan
 isplit
 isprint
+italic
 items
 iunabbrev
 iunmap
@@ -763,6 +766,7 @@ nmenu
 nnoremap
 nnoremenu
 noautocmd
+nocombine
 nohlsearch
 nomodifiable
 nomodified
@@ -1029,6 +1033,7 @@ sprevious
 sqrt
 srewind
 stag
+standout
 star
 startgreplace
 startinsert
@@ -1046,6 +1051,7 @@ strdisplaywidth
 strftime
 strgetchar
 stridx
+strikethrough
 string
 strlen
 strpart
@@ -1200,6 +1206,11 @@ ttytype
 tunmenu
 type
 unabbreviate
+undercurl
+underdashed
+underdotted
+underdouble
+underline
 undo
 undodir
 undofile
