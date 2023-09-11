@@ -758,6 +758,7 @@ mzscheme
 nargs
 nbkey
 new
+newtab
 next
 nextnonblank
 nmap
@@ -1228,7 +1229,10 @@ unmenu
 update
 updatecount
 updatetime
+uselast
+useopen
 user
+usetab
 values
 var
 verbose
