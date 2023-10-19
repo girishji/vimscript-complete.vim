@@ -846,6 +846,7 @@ ptnext
 ptprevious
 ptrewind
 ptselect
+pum_getpos
 pumheight
 pumvisible
 put
