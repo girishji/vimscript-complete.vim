@@ -31,18 +31,19 @@ def Prefix(): list<any>
         type = 'var'
         kind = 'v'
     else
-        var matches = line->matchlist('\v<(\a+)!{0,1}\s+(\k+)$')
-        # autocmd, augroup, highlight, map, etc.
-        if matches != [] && matches[1] != '' && matches[2] != ''
-            type = 'cmdline'
-            prefix = $'{matches[1]} {matches[2]}'
-            kind = 'V'
-            startcol = col('.') - matches[2]->len()
-            var items = prefix->getcompletion(type)
-            if items == []
-                [prefix, type, kind] = ['', '', '']
-            endif
-        endif
+        # XXX: Following makes vim hang when typing ':cs find g'
+        # var matches = line->matchlist('\v<(\a+)!{0,1}\s+(\k+)$')
+        # # autocmd, augroup, highlight, map, etc.
+        # if matches != [] && matches[1] != '' && matches[2] != ''
+        #     type = 'cmdline'
+        #     prefix = $'{matches[1]} {matches[2]}'
+        #     kind = 'V'
+        #     startcol = col('.') - matches[2]->len()
+        #     var items = prefix->getcompletion(type)
+        #     if items == []
+        #         [prefix, type, kind] = ['', '', '']
+        #     endif
+        # endif
     endif
     if type == ''
         # last resort, search vimscript reserved words dictionary
