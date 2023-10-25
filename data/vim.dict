@@ -950,6 +950,7 @@ set
 setbufline
 setbufvar
 setcharsearch
+setcmdline
 setcmdpos
 setfiletype
 setfperm
