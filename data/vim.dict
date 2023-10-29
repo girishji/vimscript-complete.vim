@@ -20,6 +20,9 @@ BufWrite
 BufWriteCmd
 BufWritePost
 BufWritePre
+CmdlineEnter
+CmdlineChanged
+CmdlineLeave
 CmdwinEnter
 CmdwinLeave
 ColorScheme
