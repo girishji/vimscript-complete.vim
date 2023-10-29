@@ -687,6 +687,7 @@ lockvar
 log
 log10
 lolder
+longest
 lopen
 lpfile
 lprevious
@@ -731,6 +732,7 @@ maxmempattern
 maxmemtot
 menu
 menuitems
+menuone
 menutranslate
 messages
 min
@@ -772,6 +774,7 @@ nnoremenu
 noautocmd
 nocombine
 nohlsearch
+noinsert
 nomodifiable
 nomodified
 nonumber
@@ -779,6 +782,7 @@ noreabbrev
 noremap
 noremenu
 normal
+noselect
 nowrap
 nr2char
 nrformats
@@ -817,10 +821,12 @@ perldo
 perleval
 pop
 popup
+popuphidden
 pow
 ppop
 preserve
 preserveindent
+preview
 previewheight
 previewwindow
 previous
