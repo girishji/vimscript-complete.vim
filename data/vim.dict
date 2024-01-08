@@ -708,6 +708,9 @@ map
 maparg
 mapcheck
 mapclear
+maplist
+mapnew
+mapset
 mapping
 mark
 marks
