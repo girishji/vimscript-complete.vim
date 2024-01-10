@@ -2,6 +2,8 @@
 > THIS PLUGIN IS NO LONGER NEEDED.
 > The functionality is already merged into [vimcomplete](https://github.com/girishji/vimcomplete).
 
+------
+
 #### Vimscript Language Autocompletion for Vim
 
 This plugin provides Vimscript language completion for
